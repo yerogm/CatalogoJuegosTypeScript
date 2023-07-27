@@ -1,0 +1,57 @@
+body {
+    color: white;
+    input {
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        max-width: 700px;
+        width: 100%;
+        background-color: transparent;
+        margin-top: 10px;
+        color: white;
+    }
+    .inpuImg {
+        width: 100%;
+    }
+    .check {
+        display: flex;
+        align-items: center;
+        
+    }
+    .span-titulo {
+        color: rgb(194, 185, 185);
+    }
+    .dropdown {
+        background-color: rgb(73, 71, 71);
+        border-radius: 15px;
+        color: white;
+        border: none;
+        padding: 5px 9px;
+        width: 180px;
+    }
+    .grid-template {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        align-items: center;
+        margin-top: 10px;
+        
+    }
+    .dos-columnas {
+        display: flex;
+        gap: 10px;
+    }
+
+    button {
+        background-color: #3625b3;
+        color: white;
+        margin-top: 15px;
+        border: solid white 1px;
+        border-radius: 10px;
+        padding: 3px 10px;
+        cursor: pointer;
+    }
+    .contenedor {
+        width: 100%;
+    }
+}
